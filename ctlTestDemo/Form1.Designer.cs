@@ -116,10 +116,6 @@ namespace ctlTestDemo
             this.pagerControl1.DataCount = 0;
             this.pagerControl1.DataGridView = this.skinDataGridView1;
             this.pagerControl1.DataSource = null;
-<<<<<<< HEAD
-            this.pagerControl1.ItemForeColor = System.Drawing.SystemColors.ActiveCaption;
-=======
->>>>>>> 95e6c7555229f401d321d95b984af39acb332b67
             this.pagerControl1.Location = new System.Drawing.Point(12, 609);
             this.pagerControl1.Name = "pagerControl1";
             this.pagerControl1.PageCount = 0;

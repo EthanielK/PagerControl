@@ -78,7 +78,7 @@ namespace cassControl
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(973, 36);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(973, 89);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // tableLayoutPanel3
@@ -99,7 +99,7 @@ namespace cassControl
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 1;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(342, 30);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(342, 83);
             this.tableLayoutPanel3.TabIndex = 5;
             // 
             // label7
@@ -109,7 +109,7 @@ namespace cassControl
             this.label7.Font = new System.Drawing.Font("宋体", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label7.Location = new System.Drawing.Point(309, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(30, 30);
+            this.label7.Size = new System.Drawing.Size(30, 83);
             this.label7.TabIndex = 5;
             this.label7.Text = "页";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -121,7 +121,7 @@ namespace cassControl
             this.lblPageCount.Font = new System.Drawing.Font("宋体", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.lblPageCount.Location = new System.Drawing.Point(224, 0);
             this.lblPageCount.Name = "lblPageCount";
-            this.lblPageCount.Size = new System.Drawing.Size(79, 30);
+            this.lblPageCount.Size = new System.Drawing.Size(79, 83);
             this.lblPageCount.TabIndex = 4;
             this.lblPageCount.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -132,7 +132,7 @@ namespace cassControl
             this.lblCurrentPage.Font = new System.Drawing.Font("宋体", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.lblCurrentPage.Location = new System.Drawing.Point(105, 0);
             this.lblCurrentPage.Name = "lblCurrentPage";
-            this.lblCurrentPage.Size = new System.Drawing.Size(62, 30);
+            this.lblCurrentPage.Size = new System.Drawing.Size(62, 83);
             this.lblCurrentPage.TabIndex = 3;
             this.lblCurrentPage.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -143,7 +143,7 @@ namespace cassControl
             this.label4.Font = new System.Drawing.Font("宋体", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label4.Location = new System.Drawing.Point(173, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(45, 30);
+            this.label4.Size = new System.Drawing.Size(45, 83);
             this.label4.TabIndex = 2;
             this.label4.Text = "/";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -155,7 +155,7 @@ namespace cassControl
             this.label5.Font = new System.Drawing.Font("宋体", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label5.Location = new System.Drawing.Point(3, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(96, 30);
+            this.label5.Size = new System.Drawing.Size(96, 83);
             this.label5.TabIndex = 0;
             this.label5.Text = "当前页:";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -174,8 +174,8 @@ namespace cassControl
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(154, 30);
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 83F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(154, 83);
             this.tableLayoutPanel2.TabIndex = 4;
             // 
             // lblDataCount
@@ -185,7 +185,7 @@ namespace cassControl
             this.lblDataCount.Font = new System.Drawing.Font("宋体", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.lblDataCount.Location = new System.Drawing.Point(33, 0);
             this.lblDataCount.Name = "lblDataCount";
-            this.lblDataCount.Size = new System.Drawing.Size(86, 30);
+            this.lblDataCount.Size = new System.Drawing.Size(86, 83);
             this.lblDataCount.TabIndex = 3;
             this.lblDataCount.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -196,7 +196,7 @@ namespace cassControl
             this.label3.Font = new System.Drawing.Font("宋体", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label3.Location = new System.Drawing.Point(125, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(26, 30);
+            this.label3.Size = new System.Drawing.Size(26, 83);
             this.label3.TabIndex = 2;
             this.label3.Text = "条";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -208,7 +208,7 @@ namespace cassControl
             this.label1.Font = new System.Drawing.Font("宋体", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label1.Location = new System.Drawing.Point(3, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(24, 30);
+            this.label1.Size = new System.Drawing.Size(24, 83);
             this.label1.TabIndex = 0;
             this.label1.Text = "共";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -228,7 +228,7 @@ namespace cassControl
             this.btnFirstpage.Name = "btnFirstpage";
             this.btnFirstpage.NormlBack = null;
             this.btnFirstpage.RoundStyle = CCWin.SkinClass.RoundStyle.All;
-            this.btnFirstpage.Size = new System.Drawing.Size(67, 30);
+            this.btnFirstpage.Size = new System.Drawing.Size(67, 83);
             this.btnFirstpage.TabIndex = 3;
             this.btnFirstpage.Text = "|<<";
             this.btnFirstpage.UseVisualStyleBackColor = false;
@@ -249,7 +249,7 @@ namespace cassControl
             this.btnLastpage.Name = "btnLastpage";
             this.btnLastpage.NormlBack = null;
             this.btnLastpage.RoundStyle = CCWin.SkinClass.RoundStyle.All;
-            this.btnLastpage.Size = new System.Drawing.Size(67, 30);
+            this.btnLastpage.Size = new System.Drawing.Size(67, 83);
             this.btnLastpage.TabIndex = 0;
             this.btnLastpage.Text = ">>|";
             this.btnLastpage.UseVisualStyleBackColor = false;
@@ -270,7 +270,7 @@ namespace cassControl
             this.btnNextpage.Name = "btnNextpage";
             this.btnNextpage.NormlBack = null;
             this.btnNextpage.RoundStyle = CCWin.SkinClass.RoundStyle.All;
-            this.btnNextpage.Size = new System.Drawing.Size(67, 30);
+            this.btnNextpage.Size = new System.Drawing.Size(67, 83);
             this.btnNextpage.TabIndex = 1;
             this.btnNextpage.Text = ">";
             this.btnNextpage.UseVisualStyleBackColor = false;
@@ -291,7 +291,7 @@ namespace cassControl
             this.btnPreviouspage.Name = "btnPreviouspage";
             this.btnPreviouspage.NormlBack = null;
             this.btnPreviouspage.RoundStyle = CCWin.SkinClass.RoundStyle.All;
-            this.btnPreviouspage.Size = new System.Drawing.Size(67, 30);
+            this.btnPreviouspage.Size = new System.Drawing.Size(67, 83);
             this.btnPreviouspage.TabIndex = 2;
             this.btnPreviouspage.Text = "<";
             this.btnPreviouspage.UseVisualStyleBackColor = false;
@@ -303,7 +303,7 @@ namespace cassControl
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(803, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(167, 30);
+            this.panel1.Size = new System.Drawing.Size(167, 83);
             this.panel1.TabIndex = 6;
             // 
             // tableLayoutPanel4
@@ -318,7 +318,7 @@ namespace cassControl
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.RowCount = 1;
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(167, 30);
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(167, 83);
             this.tableLayoutPanel4.TabIndex = 0;
             // 
             // btnSwitchPage
@@ -336,9 +336,9 @@ namespace cassControl
             this.btnSwitchPage.Name = "btnSwitchPage";
             this.btnSwitchPage.NormlBack = null;
             this.btnSwitchPage.RoundStyle = CCWin.SkinClass.RoundStyle.All;
-            this.btnSwitchPage.Size = new System.Drawing.Size(87, 24);
+            this.btnSwitchPage.Size = new System.Drawing.Size(87, 77);
             this.btnSwitchPage.TabIndex = 2;
-            this.btnSwitchPage.Text = "=>";
+            this.btnSwitchPage.Text = "跳转";
             this.btnSwitchPage.UseVisualStyleBackColor = false;
             this.btnSwitchPage.Click += new System.EventHandler(this.btnSwitchPage_Click);
             // 
@@ -359,7 +359,7 @@ namespace cassControl
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "PagerControl";
-            this.Size = new System.Drawing.Size(973, 36);
+            this.Size = new System.Drawing.Size(973, 89);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel3.ResumeLayout(false);
             this.tableLayoutPanel3.PerformLayout();
