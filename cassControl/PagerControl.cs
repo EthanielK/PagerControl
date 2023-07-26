@@ -2,10 +2,7 @@
 using System;
 using System.ComponentModel;
 using System.Data;
-<<<<<<< HEAD
 using System.Drawing;
-=======
->>>>>>> 95e6c7555229f401d321d95b984af39acb332b67
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
 
@@ -16,10 +13,7 @@ namespace cassControl
         public PagerControl()
         {
             InitializeComponent();
-<<<<<<< HEAD
             DoubleBuffered = true;
-=======
->>>>>>> 95e6c7555229f401d321d95b984af39acb332b67
         }
 
         #region fields, properties
@@ -64,7 +58,6 @@ namespace cassControl
             }
         }
 
-<<<<<<< HEAD
         private Color itemForeColor = SystemColors.ControlText;
 
         [Browsable(true)]
@@ -81,9 +74,6 @@ namespace cassControl
             }
         }
 
-
-=======
->>>>>>> 95e6c7555229f401d321d95b984af39acb332b67
         [Browsable(false)]
         public int CurrentPage { get => currentPage; set => currentPage = value; }
 
@@ -113,7 +103,7 @@ namespace cassControl
 
         #region methods
 
-<<<<<<< HEAD
+
         private void ApplyItemForeColor()
         {
             lblDataCount.ForeColor = itemForeColor;
@@ -132,8 +122,7 @@ namespace cassControl
             //btnSwitchPage.ForeColor = itemForeColor;
         }
 
-=======
->>>>>>> 95e6c7555229f401d321d95b984af39acb332b67
+
         private void PageSorter()
         {
             DataCount = dataSourceTable.Rows.Count;
